@@ -1,9 +1,20 @@
 
+import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
-data = pd.read_csv("Iris.csv")
-print(data.head(8))
+from sklearn.datasets import load_iris
+iris=load_iris()
+for keys in iris.keys() :
+    print(keys)
+
+X = iris.data
+y = iris.target
+
+
+print(X)
 
 
 
