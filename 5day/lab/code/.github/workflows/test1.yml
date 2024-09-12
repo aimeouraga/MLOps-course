@@ -1,0 +1,19 @@
+yaml
+name: Print Secret and Variable
+
+on: [push]
+
+jobs:
+  print_values:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Print Secret and Variable
+        run: |
+          echo "Secret Value: ***"
+          echo "Variable Value: $MY_VARIABLE"
+        env:
+          MY_VARIABLE: "This is a variable value"
+          MY_SECRET: ${{ secrets.MY_SECRET }}
