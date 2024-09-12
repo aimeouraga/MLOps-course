@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c45b9a65027e4d619915ab150b86923e/artifacts
+end_time: 1725555702825
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c45b9a65027e4d619915ab150b86923e
+run_name: angry-slug-534
+run_uuid: c45b9a65027e4d619915ab150b86923e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725555701737
+status: 3
+tags: []
+user_id: ouragadavid
