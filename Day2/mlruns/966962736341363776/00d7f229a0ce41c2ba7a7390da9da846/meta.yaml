@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/966962736341363776/00d7f229a0ce41c2ba7a7390da9da846/artifacts
+end_time: 1725555744108
+entry_point_name: ''
+experiment_id: '966962736341363776'
+lifecycle_stage: active
+run_id: 00d7f229a0ce41c2ba7a7390da9da846
+run_name: salty-seal-148
+run_uuid: 00d7f229a0ce41c2ba7a7390da9da846
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725555742984
+status: 3
+tags: []
+user_id: ouragadavid
